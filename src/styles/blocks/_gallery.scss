@@ -1,0 +1,67 @@
+/* блок gallery */
+
+.gallery-btn-wrap {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+.btn-gallery {
+    display: inline-block;
+    padding: 11px;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 17px;
+    color: rgba(251, 143, 29, 1);
+    padding: 5px;
+}
+
+.cards-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.place-card {
+    display: flex;
+    position: relative;
+    margin: 20px;
+    /* border: 1px solid #000; */
+    border-radius: 8px;
+    height: 337px;
+    width: 261px;
+}
+
+.place-card-wrap {
+    opacity: 0.95;
+    transition: all 0.3s;
+}
+
+.place-card-wrap:hover {
+    transform: scale(1.02);
+    opacity: 1;
+}
+
+.place-link-wrap {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 11px 20px 5px 0;
+    border-radius: 0 6px;
+}
+
+.place-link-wrap a {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 18px;
+    color: #042521;
+}
+
+.place-link-wrap span {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 15px;
+    color: rgba(175, 176, 185, 1);
+}

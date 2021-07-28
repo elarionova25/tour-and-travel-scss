@@ -1,0 +1,73 @@
+/* стилизуем блок main-page */
+
+.main-page-wrap {
+    display: flex;
+    margin-top: 80px;
+}
+
+.content-part {
+    /* border: 1px solid #000; */
+    width: 50%;
+    align-items: center;
+}
+
+.visual {
+    padding: 0;
+    width: 687px;
+    height: 654px;
+    /* border: 1px solid #000; */
+}
+
+.form-title {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.form-first-row {
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid #000; */
+}
+
+.form-second-row {
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid #000; */
+    margin-top: 30px;
+}
+
+.form-item {
+    /* width: 50%; */
+    width: 220px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+    /* flex-grow: 1; */
+    border-color: rgba(175, 176, 185, 1);
+    border-radius: 6px;
+}
+
+.form-item:first-child {
+    margin-right: 30px;
+}
+
+.form-item option {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.btn-main-page {
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+    /* border: 1px solid #000; */
+    padding: 20px 60px;
+    margin-top: 45px;
+    background-color: rgba(251, 143, 29, 1);
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 17px;
+}

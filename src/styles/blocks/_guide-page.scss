@@ -1,0 +1,31 @@
+/* блок guide-page */
+
+.guide-page-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.guide-page-content {
+    padding-right: 150px;
+}
+
+.guide-page-text {
+    font-family: 'Inter';
+    font-weight: 300;
+    font-size: 18px;
+    color: rgba(175, 176, 185, 1);
+}
+
+.guide-page-btn {
+    display: inline-block;
+    padding: 11px;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 17px;
+    background-color: rgba(251, 143, 29, 1);
+    color: #fff;
+    padding: 20px 43px;
+    border-radius: 8px;
+    margin-top: 21px;
+}
