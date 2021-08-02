@@ -15,6 +15,11 @@
     padding-top: 35px;
 }
 
+.logo {
+    display: inline-block;
+    margin: 0 auto 0 0;
+}
+
 .header-wrap a {
     font-family: 'Inter';
     font-weight: 500;
@@ -22,8 +27,10 @@
 }
 
 .logo-pic {
-    display: block;
-    margin-right: auto;
+    // display: block;
+    // margin-right: auto;
+    width: 50px;
+    height: 50px;
 }
 
 .main-nav ul {
