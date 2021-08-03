@@ -2,6 +2,9 @@
 @import "common/_variables";
 @import "common/_fonts";
 @import "common/_typography";
+// plugins
+@import "plugins/slick.scss";
+@import "plugins/slick-theme.scss";
 // blocks
 @import "blocks/_promo.scss";
 @import "blocks/_layouts.scss";
@@ -11,3 +14,4 @@
 @import "blocks/_gallery.scss";
 @import "blocks/_guide-page.scss";
 @import "blocks/_command.scss";
+@import "blocks/_slider.scss";

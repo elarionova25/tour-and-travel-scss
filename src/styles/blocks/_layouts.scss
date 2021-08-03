@@ -3,7 +3,7 @@
 }
 
 body {
-    // background-color: rgb(255, 245, 231);
+    background-color: pink;
 }
 
 h1 {
@@ -24,5 +24,8 @@ section {
 }
 
 .container {
-    padding: 0 30px 0 30px;
+    /*делаем сайт по центру */
+    max-width: 1278px;
+    margin: 0 auto;
+    // border: 1px solid #000;
 }

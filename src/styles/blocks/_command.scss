@@ -2,45 +2,11 @@
 
 .command-wrap {
     display: flex;
-    justify-content: start;
 }
 
-.command-text {
+.about {
     font-family: 'Inter';
     font-weight: 400;
     font-size: 24px;
-    margin-right: 80px;
-    /* border: 1px solid #000; */
-}
-
-.command-content {
-    /* border: 1px solid #000; */
-    margin-left: 150px;
-    margin-right: 100px;
-}
-
-.command-visual {
-    /* display: block; */
-    /* border: 2px solid #000; */
-    margin-right: 150px;
-    /* border-radius: 6px; */
-}
-
-.command-visual img {
-    display: inline-block;
-    /* border: 2px solid #000; */
-    /* margin-right: 150px; */
-    border-radius: 8px;
-}
-
-.text-author {
-    font-family: 'Inter';
-    font-weight: 700;
-    font-size: 22px;
-}
-
-.text-author span {
-    font-family: 'Inter';
-    font-weight: 400;
-    font-size: 18px;
+    color: black;
 }
